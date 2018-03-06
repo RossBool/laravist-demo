@@ -29,6 +29,6 @@ class User extends Authenticatable
     ];
 
     protected  $a = [
-        'hello','you'
+        'hello',''
     ];
 }
