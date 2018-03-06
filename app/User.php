@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+
     use Notifiable;
 
     /**
@@ -28,6 +29,6 @@ class User extends Authenticatable
     ];
 
     protected  $a = [
-        'hello','you are my shine'
+        'hello','you'
     ];
 }
